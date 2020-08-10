@@ -13,9 +13,7 @@ class Nava extends Component{
     <div className="logo">
         <h2>eder and Nansi wedding</h2>
     </div>
-    <div className="homebutton">
-        <Link to="/" id="homelink">Home</Link>
-    </div>
+    
     <ul className= {this.state.active ? "links" : "links nav-active" }>
     
         <li><a href="https://github.com/joseDelator/restcount/tree/master/src">git_hub</a></li>

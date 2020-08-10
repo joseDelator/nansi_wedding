@@ -5,6 +5,7 @@
     --textcolor: white, 
 }
 .evite-contianer{
+    z-index: -1;
     text-transform: capitalize;
     position: relative;
     font-family: 'Tangerine','Times New Roman', Times, serif;
