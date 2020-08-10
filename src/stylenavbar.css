@@ -19,7 +19,7 @@ nav {
 	align-items: center;
 	min-height: var(--navbarheight);
 	background: var(--navcolor);
-
+	overflow: hidden;
 	z-index: 9999; 
 
 }
