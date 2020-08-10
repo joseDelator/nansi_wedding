@@ -1,0 +1,102 @@
+:root{
+    --background: black ;
+    --tone: #b76e79; 
+    --width: 90%;
+    --textcolor: white, 
+}
+.evite-contianer{
+    text-transform: capitalize;
+    position: relative;
+    font-family: 'Tangerine','Times New Roman', Times, serif;
+    left: 5%;
+    margin-top:2vh; 
+    width: var(--width);
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(hotel-wallpaper-black.png);
+    border: 4px solid var(--tone);
+    color: white;
+    
+}
+.evite-contianer svg:nth-child(1){
+    
+    fill: var(--tone);
+    width: 20%;
+    
+}
+.evite-contianer svg:nth-child(2)
+{
+    position: absolute;
+    fill: var(--tone);
+    width: 30%;
+    bottom: 0%;
+    left: 0%;
+}
+.evite-contianer svg:nth-child(3)
+{
+    position: absolute;
+    fill:var(--tone);
+    width: 20%;
+    top: 0%;
+    right: 0%;
+}
+.evite-contianer .words h3{
+    color: white;
+    padding: 0;
+    font-size: 5vw;
+    
+}
+.evite-contianer .words h5{
+    font-size: 3vw;
+}
+.evite-contianer .info{
+    display: flex;
+    justify-content: center;
+}
+.evite-contianer .info .box{
+    width: 25%;
+    text-align: center;
+}
+.evite-contianer .info .box h4{
+    font-size: 4vw;
+   color: var(--tone);
+}
+.evite-contianer .info .box:nth-child(2){
+    border-left: 1px  dashed var(--tone);
+}
+.evite-contianer .info .box:nth-child(3){
+    border-left: 1px dashed var(--tone);
+}
+@media(min-width: 550px ){
+    .evite-contianer {
+        position: absolute;;
+    
+        left: calc(50% - 250px);
+        
+        width: 500px;
+        height: 700px ;
+        }
+        .evite-contianer .words h3{
+            color: white;
+            padding: 0;
+            font-size: 20pt;
+            
+        }
+        .evite-contianer .words h5{
+            font-size: 15pt;
+        }
+        .evite-contianer .info{
+            display: flex;
+            justify-content: center;
+            padding-top: 10%;
+        }
+        
+        .evite-contianer .info .box{
+            width: 25%;
+            text-align: center;
+        }
+        .evite-contianer .info .box h4{
+            font-size: 18pt;
+           color: var(--tone);
+        }
+}
