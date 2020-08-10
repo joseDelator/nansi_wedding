@@ -1,4 +1,9 @@
 .App {
+  padding: 0;
+  margin: 0;
   text-align: center;
-  overflow: hidden;
+  justify-content: center;
+  overflow: hidden;  
+  text-align: center;
+  
 }
