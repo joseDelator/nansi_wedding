@@ -6,10 +6,12 @@ import  {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <Router>
-      <Nava />
-      <Evite />
-      </Router>
+      <React.Fragment>
+        <Router>
+          <Nava />
+          <Evite />
+        </Router>
+      </React.Fragment>
     </div>
   );
 }
