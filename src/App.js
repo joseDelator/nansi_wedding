@@ -6,12 +6,14 @@ import  {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <React.Fragment>
+     
         <Router>
+          <React.Fragment>
           <Nava />
           <Evite />
+          </React.Fragment>
         </Router>
-      </React.Fragment>
+      
     </div>
   );
 }
