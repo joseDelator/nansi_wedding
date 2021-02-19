@@ -1,6 +1,7 @@
 import React from 'react';
 import Nava from './componets.js/Nava'
 import Evite from './componets.js/evite'
+import Mus from './componets.js/mus'
 import './App.css';
 import  {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 function App() {
@@ -9,7 +10,7 @@ function App() {
      
         <Router>
           <React.Fragment>
-          <Nava />
+          <Mus></Mus>
           <Evite />
           </React.Fragment>
         </Router>
