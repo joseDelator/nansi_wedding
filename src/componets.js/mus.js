@@ -8,7 +8,7 @@ class Music extends Component {
     render() {
         return (
             <div>
-                <audio   className='audio-element' >
+                <audio controls  className='audio-element' >
                     <source src={Mus} type="audio/mpeg"/>
                     Your browser does not support the audio element.
                 </audio>
