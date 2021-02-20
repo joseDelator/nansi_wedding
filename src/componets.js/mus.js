@@ -1,18 +1,31 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import Mus from "../mus.m4a"
 class Music extends Component {
-    componentDidMount() {
+
+   // componentDidMount() {
+     //   const audioEl = document.getElementsByClassName("audio-element")[0]
+       // audioEl.play()
+      //}
+      
+      start() {
+        
         const audioEl = document.getElementsByClassName("audio-element")[0]
         audioEl.play()
+      
       }
+      
     render() {
+    
         return (
             <div>
-                <audio controls  className='audio-element' >
+                <audio autoPlay={true}  className='audio-element' >
                     <source src={Mus} type="audio/mpeg"/>
-                    Your browser does not support the audio element.
+                    Your browser does not suppofrt the audio element.
                 </audio>
+               <button onClick = {this.start}><span>start</span></button>
+              
             </div>
+           
         );
     }
 }
