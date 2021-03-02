@@ -1,0 +1,34 @@
+:root{
+    --background: black ;
+    --tone: #b76e79; 
+    --width: 95%;
+    --textcolor: white, 
+}
+.chruch_container{
+ background:url('./hotel-wallpaper-black.png');
+ color: var(--tone);
+ height: 100vh;
+
+ justify-content: space-evenly;
+}
+.chruch_container svg{
+    fill: var(--tone);
+    width: 17vw;
+    max-width: 1200px;
+}
+h1{
+    padding-top: 10px;
+    color: white;
+    font-size: 5vw;
+
+}
+a{
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 5vw;
+}
+.Map{
+    width: 100%;
+    height: 100%;
+}

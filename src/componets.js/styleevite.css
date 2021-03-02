@@ -1,19 +1,25 @@
 :root{
     --background: black ;
     --tone: #b76e79; 
-    --width: 90%;
+    --width: 95%;
     --textcolor: white, 
 }
+.bigcon{
+    position: relative;
+   
+}
+
 .evite-contianer{
-    z-index: -1;
+    
     text-transform: capitalize;
     position: relative;
     font-family: 'Tangerine','Times New Roman', Times, serif;
-    left: 5%;
+    left: 2.5%;
     margin-top:2vh; 
     width: var(--width);
     height: 100vh;
     min-height: 500px;
+    max-height: 700px;
     background-image: url(hotel-wallpaper-black.png);
     border: 4px solid var(--tone);
     color: white;
@@ -70,10 +76,8 @@
 }
 @media(min-width: 550px ){
     .evite-contianer {
-        position: absolute;;
-    
+        position: relative; 
         left: calc(50% - 250px);
-        
         width: 500px;
         height: 700px ;
         }

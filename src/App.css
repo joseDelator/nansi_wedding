@@ -2,8 +2,29 @@
   padding: 0;
   margin: 0;
   text-align: center;
-  justify-content: center;
-  overflow: hidden;  
-  text-align: center;
+ justify-content: center;
+ font-family: 'Tangerine','Times New Roman', Times, serif;
+ 
+}
+
+.gala{
+  margin-top: 1vh;
+  position: relative;
+  width: 97%;
+  margin-left: 2.5%;
+  max-width: 1200px;
+  border-radius: 2px
   
+  
+}
+.slides{
+  position: relative;
+  position: relative;
+  
+  border-radius: 20px;
+}
+@media(min-width:1200px){
+  .gala{
+    left:calc(50%-60px);
+  }
 }

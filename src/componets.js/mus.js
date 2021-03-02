@@ -22,7 +22,7 @@ class Music extends Component {
                     <source src={Mus} type="audio/mpeg"/>
                     Your browser does not suppofrt the audio element.
                 </audio>
-               <button onClick = {this.start}><span>start</span></button>
+               
               
             </div>
            
