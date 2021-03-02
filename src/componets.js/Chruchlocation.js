@@ -14,11 +14,13 @@ class Chruchlocation extends Component {
                Cick here for dircitions </a>
                <Map
                     google={this.props.google}
-                    zoom={15}
+                    zoom={10}
                     style={mapStyles}
-                    initialCenter={{ lat: 47.444, lng: -122.176}}
+                    initialCenter={{ lat: 38.23254093802357, lng:-122.64293900759004 }}
         >
-            <Marker position={{ lat: 48.00, lng: -122.00}} />
+            <Marker 
+            icon={Churchsvg}            
+            position={{ lat:38.23254093802357, lng:-122.64293900759004 }} />
         </Map>
           
     );
@@ -28,8 +30,8 @@ class Chruchlocation extends Component {
     }
 }
 const mapStyles = {
-    width: '50%',
-    height: '50%',
+    width: '100%',
+    
   };
 export default GoogleApiWrapper({
     apiKey: 'AIzaSyDbwxXV1saSuEHtYZhRhBTo9E1_RFIhtho'
