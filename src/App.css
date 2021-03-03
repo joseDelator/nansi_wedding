@@ -19,12 +19,12 @@
   
 }
 .Swiper{
-  height:100px;
-  width: 100px;
+  height:500px;
+ 
   
 }
 .slides{
-  width: 100px;
+  
 }
 @media(min-width:1200px){
   .gala{
