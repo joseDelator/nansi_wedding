@@ -3,28 +3,32 @@
   margin: 0;
   text-align: center;
  justify-content: center;
- font-family: 'Tangerine','Times New Roman', Times, serif;
+ font-family: 'Lora','Times New Roman', Times, serif;
  
 }
 
 .gala{
-  margin-top: 1vh;
+ 
   position: relative;
-  width: 97%;
-  margin-left: 2.5%;
-  max-width: 1200px;
-  border-radius: 2px
+  width: 100%;
   
+  max-width: 1200px;
+  border-radius: 2px;
+  background-color: black;
+  
+  
+}
+.Swiper{
+  height:100px;
+  width: 100px;
   
 }
 .slides{
-  position: relative;
-  position: relative;
-  
-  border-radius: 20px;
+  width: 100px;
 }
 @media(min-width:1200px){
   .gala{
+   
     left:calc(50%-60px);
   }
 }

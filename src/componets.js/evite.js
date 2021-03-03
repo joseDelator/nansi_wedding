@@ -18,9 +18,9 @@ class Evite extends Component{
                     <h3>Eder Aragon</h3>
                     <h3>Wedding</h3>
                     <div className='info'>
-                        <div className="box"><h4>lcoations</h4><p></p></div>
-                        <div className="box"><h4>date</h4><p>August</p><h1>24</h1></div>
-                        <div className="box"><h4>lcoations</h4><p></p></div>
+                        <div className="box"><h4>Cermona</h4><p></p></div>
+                        <div className="box"><h4>date</h4><p>August</p><h1>28</h1></div>
+                        <div className="box"><h4>Church</h4><p></p></div>
                     </div>
                 </div>
               </div>  

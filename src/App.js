@@ -4,7 +4,7 @@ import Evite from './componets.js/evite'
 import Mus from './componets.js/mus'
 import Sslider from './componets.js/Image'
 import Chruchlocation from './componets.js/Chruchlocation'
-
+import Bettrtimage from './componets.js/BetterIMage'
 import './App.css';
 import  {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 function App() {
@@ -15,6 +15,7 @@ function App() {
           <React.Fragment>
           <Mus/>
           <Evite />
+          <Bettrtimage/>
           <Sslider/>
           <Chruchlocation/>
           
