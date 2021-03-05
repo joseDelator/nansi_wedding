@@ -1,26 +1,26 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Mus from "../mus.m4a"
+import Lotussvg from './Lotussvg'
+import './music.css'
  function  Music() {
-
-   // componentDidMount() {
-     //   const audioEl = document.getElementsByClassName("audio-element")[0]
-       // audioEl.play()
-      //}
-      
-      useEffect(() => {
+  const box = useRef(0);
+  
+      function start(){
         const audioEl = document.getElementsByClassName("audio-element")[0]
-       audioEl.play()
-      });
-    
-    
+         audioEl.play()
+         box.current.style.display = "none";
+      }
+     
     
         return (
-            <div>
+            <div className="music_container" ref={box}>
                 <audio autoPlay={true}  className='audio-element' >
                     <source src={Mus} type="audio/mpeg"/>
-                    Your browser does not suppofrt the audio element.
+                    Your browser does not support the audio element.
                 </audio>
-                <button ></button>
+                <button onClick={start} >
+                <Lotussvg/>
+                </button>
                
               
             </div>
