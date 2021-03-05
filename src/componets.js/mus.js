@@ -1,20 +1,18 @@
-import React, { Component, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Mus from "../mus.m4a"
-class Music extends Component {
+ function  Music() {
 
    // componentDidMount() {
      //   const audioEl = document.getElementsByClassName("audio-element")[0]
        // audioEl.play()
       //}
       
-      start() {
-        
+      useEffect(() => {
         const audioEl = document.getElementsByClassName("audio-element")[0]
-        audioEl.play()
-      
-      }
-      
-    render() {
+       audioEl.play()
+      });
+    
+    
     
         return (
             <div>
@@ -22,12 +20,13 @@ class Music extends Component {
                     <source src={Mus} type="audio/mpeg"/>
                     Your browser does not suppofrt the audio element.
                 </audio>
+                <button ></button>
                
               
             </div>
            
         );
-    }
+    
 }
 
 export default Music;
