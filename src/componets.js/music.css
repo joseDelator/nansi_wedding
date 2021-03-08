@@ -19,3 +19,7 @@ button{
     left: calc(50% - 12.5vw);
     fill: thistle;
 }
+.music_container h1{
+   margin-top: 35vw;
+   font-family: 'futura';
+}

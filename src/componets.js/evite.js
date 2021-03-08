@@ -1,8 +1,7 @@
 import React, { Component} from 'react';
-import {Link } from 'react-router-dom';
 import Lotus from './Lotussvg'
-import Bottom_Left from './bottomleft'
-import Top_Right from './topright'
+import BottomLeft from './bottomleft'
+import TopRight from './topright'
 import './styleevite.css'
 class Evite extends Component{
 
@@ -10,8 +9,8 @@ class Evite extends Component{
             <div className='bigcon'>
             <div className='evite-contianer'>
                 <Lotus />
-                <Bottom_Left />
-                <Top_Right />
+                <BottomLeft />
+                <TopRight />
                 <div className='words'>
                     <h3>Nansi De La Torre</h3>
                     <h5>&</h5>

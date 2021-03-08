@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, {useRef } from 'react';
 import Mus from "../mus.mp3"
 import Lotussvg from './Lotussvg'
 import './music.css'
@@ -19,6 +19,7 @@ import './music.css'
                     Your browser does not support the audio element.
                 </audio>
                 <button onClick={start} >
+                <h1>Eder and Nansi forever</h1>
                 <Lotussvg/>
                 </button>
                
