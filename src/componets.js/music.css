@@ -7,14 +7,15 @@
 
 }
 button{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+}
+ .music_container svg{
+    width: 25vw;
     position: absolute;
     top: calc(50% - 12.5vw);
     left: calc(50% - 12.5vw);
-    background-color: transparent;
-    border: none;
-}
-svg{
-    width: 25vw;
-    
     fill: thistle;
 }

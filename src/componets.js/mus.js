@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import Mus from "../mus.m4a"
+import Mus from "../mus.mp3"
 import Lotussvg from './Lotussvg'
 import './music.css'
  function  Music() {
